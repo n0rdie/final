@@ -1,0 +1,84 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/controllers/api/v1/air_quality_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/facades/country_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/services/country_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/poros/country_poro.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/models/application_record.rb": {
+        "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1709575389
+  }
+}

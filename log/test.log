@@ -1,0 +1,99 @@
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:37:44 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/air_quality"):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:38:34 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/air_quality"):
+  
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:41:09 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/air_quality"):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:42:07 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/air_quality"):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:44:25 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/air_quality"):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:44:45 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 500 Internal Server Error in 6619ms (ActiveRecord: 0.0ms | Allocations: 17786)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:49:12 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 500 Internal Server Error in 5112ms (ActiveRecord: 0.0ms | Allocations: 19626)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:52:24 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4499)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:52:41 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 4515)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:53:53 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 59203)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 10:58:29 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 11:00:25 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 11:00:44 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 500 Internal Server Error in 134445ms (ActiveRecord: 0.0ms | Allocations: 35402)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 11:03:02 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 500 Internal Server Error in 1492ms (ActiveRecord: 0.0ms | Allocations: 20947)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-04 11:03:09 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 204 No Content in 9ms (ActiveRecord: 0.0ms | Allocations: 6826)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
