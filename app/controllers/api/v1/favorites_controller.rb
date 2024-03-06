@@ -1,4 +1,17 @@
 class Api::V1::FavoritesController < ApplicationController
+    def index
+        if params[:api_key] != nil
+            user = User.find_by(api_key: params[:api_key])
+            if user != nil
+                render json: FavoriteSerializer.new(user.favorites), status: :ok
+            else
+                render json: { failed: 'API Key not found' }, status: :bad_request
+            end
+        else
+            render json: { failed: 'API Key not found' }, status: :bad_request
+        end
+    end
+
     def create
         if params[:api_key] != nil
             user = User.find_by(api_key: params[:api_key])

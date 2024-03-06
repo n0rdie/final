@@ -35,7 +35,7 @@
           1,
           1,
           1,
-          9,
+          12,
           null,
           null
         ]
@@ -263,9 +263,9 @@
         "lines": [
           1,
           1,
-          10,
-          10,
-          8,
+          13,
+          13,
+          11,
           null,
           2,
           null,
@@ -274,7 +274,7 @@
           1,
           null,
           1,
-          10,
+          13,
           null,
           null
         ]
@@ -294,12 +294,25 @@
         "lines": [
           1,
           1,
-          7,
-          6,
-          6,
+          5,
           4,
           4,
+          2,
+          null,
+          2,
+          null,
+          null,
           1,
+          null,
+          null,
+          null,
+          1,
+          9,
+          8,
+          8,
+          6,
+          6,
+          3,
           null,
           3,
           null,
@@ -314,7 +327,19 @@
           1,
           null,
           1,
-          4,
+          6,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/serializers/favorite_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
           null,
           null
         ]
@@ -501,6 +526,6 @@
         ]
       }
     },
-    "timestamp": 1709711211
+    "timestamp": 1709712919
   }
 }
