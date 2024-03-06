@@ -9683,3 +9683,1593 @@ Completed 201 Created in 5ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 
   [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
   [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = ? ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
   [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", nil], ["name", nil], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:46.230136"], ["updated_at", "2024-03-06 07:42:46.230136"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.1ms)[0m  [1m[33mUPDATE "users" SET "email" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["email", "dummy value"], ["updated_at", "2024-03-06 07:42:46.231756"], ["id", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dummy value"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "DUMMY VALUE"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7057)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010ab1cf00>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:46.261453"], ["updated_at", "2024-03-06 07:42:46.261453"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1358)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x000000010ab18220>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mFavorite Create (0.1ms)[0m  [1m[32mINSERT INTO "favorites" ("country", "recipe_link", "recipe_title", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["country", "thailand"], ["recipe_link", "https://www.tastingtable.com/"], ["recipe_title", "Crab Fried Rice (Khaao Pad Bpu)"], ["user_id", 1], ["created_at", "2024-03-06 07:42:46.267086"], ["updated_at", "2024-03-06 07:42:46.267086"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 4375)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = ? ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010abb0660>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:46.271810"], ["updated_at", "2024-03-06 07:42:46.271810"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 895)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 67)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 189)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 187)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5871)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=039275280noegrberg0t286ynoege4h02" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"039275280noegrberg0t286ynoege4h02", "learning_resource"=>{}}
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 3516)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11192)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 16ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 12967)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010b0544c8>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:46.333663"], ["updated_at", "2024-03-06 07:42:46.333663"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.2ms | Allocations: 898)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+[31mUnpermitted parameter: :session. Context: { controller: Api::V1::SessionsController, action: create, request: #<ActionDispatch::Request:0x000000010b0519a8>, params: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "controller"=>"api/v1/sessions", "action"=>"create", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 533)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010af7cc80>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:46.338911"], ["updated_at", "2024-03-06 07:42:46.338911"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"badboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"badboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "badboy@ruffruff.com"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 186)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010af76d80>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:46.341810"], ["updated_at", "2024-03-06 07:42:46.341810"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+[31mUnpermitted parameter: :session. Context: { controller: Api::V1::SessionsController, action: create, request: #<ActionDispatch::Request:0x000000010af74120>, params: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "controller"=>"api/v1/sessions", "action"=>"create", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 303)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010ae7da28>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:46.345846"], ["updated_at", "2024-03-06 07:42:46.345846"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010ae75d28>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1161)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010adbbb80>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:46.351626"], ["updated_at", "2024-03-06 07:42:46.351626"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:46 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Minecraft Steve", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Minecraft Steve"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010adb87a0>, params: {"name"=>"Minecraft Steve", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Minecraft Steve"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 964)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", nil], ["name", nil], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:54.442604"], ["updated_at", "2024-03-06 07:42:54.442604"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.1ms)[0m  [1m[33mUPDATE "users" SET "email" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["email", "dummy value"], ["updated_at", "2024-03-06 07:42:54.443495"], ["id", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dummy value"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "DUMMY VALUE"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7057)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000113bf1cd8>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:54.472245"], ["updated_at", "2024-03-06 07:42:54.472245"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1358)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x0000000113cbcfa0>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mFavorite Create (0.1ms)[0m  [1m[32mINSERT INTO "favorites" ("country", "recipe_link", "recipe_title", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["country", "thailand"], ["recipe_link", "https://www.tastingtable.com/"], ["recipe_title", "Crab Fried Rice (Khaao Pad Bpu)"], ["user_id", 1], ["created_at", "2024-03-06 07:42:54.477541"], ["updated_at", "2024-03-06 07:42:54.477541"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 4374)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = ? ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5871)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=039275280noegrberg0t286ynoege4h02" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"039275280noegrberg0t286ynoege4h02", "learning_resource"=>{}}
+Completed 200 OK in 8ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 3516)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11192)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001144f9ba0>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:54.530835"], ["updated_at", "2024-03-06 07:42:54.530835"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.2ms | Allocations: 898)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+[31mUnpermitted parameter: :session. Context: { controller: Api::V1::SessionsController, action: create, request: #<ActionDispatch::Request:0x00000001144f7080>, params: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "controller"=>"api/v1/sessions", "action"=>"create", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 533)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001144f2d00>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:54.535654"], ["updated_at", "2024-03-06 07:42:54.535654"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 894)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"badboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"badboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "badboy@ruffruff.com"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 187)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001145bd668>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:54.538533"], ["updated_at", "2024-03-06 07:42:54.538533"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+[31mUnpermitted parameter: :session. Context: { controller: Api::V1::SessionsController, action: create, request: #<ActionDispatch::Request:0x00000001145babe8>, params: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "controller"=>"api/v1/sessions", "action"=>"create", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 303)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001145b78a8>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:54.542484"], ["updated_at", "2024-03-06 07:42:54.542484"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001145b00a8>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 400 Bad Request in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 1161)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000114676d70>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:42:54.548147"], ["updated_at", "2024-03-06 07:42:54.548147"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:42:54 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Minecraft Steve", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Minecraft Steve"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000114673990>, params: {"name"=>"Minecraft Steve", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Minecraft Steve"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 964)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", nil], ["name", nil], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:43:00.533023"], ["updated_at", "2024-03-06 07:43:00.533023"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.1ms)[0m  [1m[33mUPDATE "users" SET "email" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["email", "dummy value"], ["updated_at", "2024-03-06 07:43:00.533807"], ["id", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dummy value"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "DUMMY VALUE"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7057)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010ea31e20>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:43:00.564116"], ["updated_at", "2024-03-06 07:43:00.564116"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1358)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x000000010eafd0c0>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mFavorite Create (0.1ms)[0m  [1m[32mINSERT INTO "favorites" ("country", "recipe_link", "recipe_title", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["country", "thailand"], ["recipe_link", "https://www.tastingtable.com/"], ["recipe_title", "Crab Fried Rice (Khaao Pad Bpu)"], ["user_id", 1], ["created_at", "2024-03-06 07:43:00.571570"], ["updated_at", "2024-03-06 07:43:00.571570"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 6ms (Views: 0.0ms | ActiveRecord: 0.2ms | Allocations: 4374)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = ? ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010ec75470>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:43:00.577555"], ["updated_at", "2024-03-06 07:43:00.577555"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 895)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 67)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 189)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 187)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5871)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=039275280noegrberg0t286ynoege4h02" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"039275280noegrberg0t286ynoege4h02", "learning_resource"=>{}}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 3516)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11192)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12905)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010f230298>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:43:00.636333"], ["updated_at", "2024-03-06 07:43:00.636333"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 898)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+[31mUnpermitted parameter: :session. Context: { controller: Api::V1::SessionsController, action: create, request: #<ActionDispatch::Request:0x000000010f2fd720>, params: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "controller"=>"api/v1/sessions", "action"=>"create", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 533)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010f2f93a0>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:43:00.641255"], ["updated_at", "2024-03-06 07:43:00.641255"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"badboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"badboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "badboy@ruffruff.com"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 186)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010f2f3e00>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:43:00.644085"], ["updated_at", "2024-03-06 07:43:00.644085"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+[31mUnpermitted parameter: :session. Context: { controller: Api::V1::SessionsController, action: create, request: #<ActionDispatch::Request:0x000000010f2f1380>, params: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "controller"=>"api/v1/sessions", "action"=>"create", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 303)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010f3bdfc0>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:43:00.648074"], ["updated_at", "2024-03-06 07:43:00.648074"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010f3b67c0>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 400 Bad Request in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 1161)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010f47d3e8>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:43:00.655201"], ["updated_at", "2024-03-06 07:43:00.655201"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:43:00 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Minecraft Steve", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Minecraft Steve"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010f47a008>, params: {"name"=>"Minecraft Steve", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Minecraft Steve"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 400 Bad Request in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 964)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", nil], ["name", nil], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:44:42.371065"], ["updated_at", "2024-03-06 07:44:42.371065"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.1ms)[0m  [1m[33mUPDATE "users" SET "email" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["email", "dummy value"], ["updated_at", "2024-03-06 07:44:42.371896"], ["id", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dummy value"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "DUMMY VALUE"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7057)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001080f1a50>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:44:42.402811"], ["updated_at", "2024-03-06 07:44:42.402811"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1358)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x00000001081bcd18>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mFavorite Create (0.1ms)[0m  [1m[32mINSERT INTO "favorites" ("country", "recipe_link", "recipe_title", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["country", "thailand"], ["recipe_link", "https://www.tastingtable.com/"], ["recipe_title", "Crab Fried Rice (Khaao Pad Bpu)"], ["user_id", 1], ["created_at", "2024-03-06 07:44:42.408430"], ["updated_at", "2024-03-06 07:44:42.408430"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 4374)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = ? ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000108235150>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:44:42.413016"], ["updated_at", "2024-03-06 07:44:42.413016"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 895)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 67)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 189)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 187)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001082fb058>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:44:42.417141"], ["updated_at", "2024-03-06 07:44:42.417141"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x00000001082f78b8>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mFavorite Create (0.1ms)[0m  [1m[32mINSERT INTO "favorites" ("country", "recipe_link", "recipe_title", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["country", "thailand"], ["recipe_link", "https://www.tastingtable.com/"], ["recipe_title", "Crab Fried Rice (Khaao Pad Bpu)"], ["user_id", 1], ["created_at", "2024-03-06 07:44:42.418462"], ["updated_at", "2024-03-06 07:44:42.418462"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 1ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 940)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5871)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=039275280noegrberg0t286ynoege4h02" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"039275280noegrberg0t286ynoege4h02", "learning_resource"=>{}}
+Completed 200 OK in 8ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 3516)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11192)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12905)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001087f0478>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:44:42.477445"], ["updated_at", "2024-03-06 07:44:42.477445"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 898)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+[31mUnpermitted parameter: :session. Context: { controller: Api::V1::SessionsController, action: create, request: #<ActionDispatch::Request:0x00000001088dd8e0>, params: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "controller"=>"api/v1/sessions", "action"=>"create", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 533)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001088d9560>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:44:42.482783"], ["updated_at", "2024-03-06 07:44:42.482783"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"badboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"badboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "badboy@ruffruff.com"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 186)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001088d3fc0>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:44:42.485653"], ["updated_at", "2024-03-06 07:44:42.485653"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+[31mUnpermitted parameter: :session. Context: { controller: Api::V1::SessionsController, action: create, request: #<ActionDispatch::Request:0x00000001088d1540>, params: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "controller"=>"api/v1/sessions", "action"=>"create", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 303)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001089be110>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:44:42.489630"], ["updated_at", "2024-03-06 07:44:42.489630"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001089b6910>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (4.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 400 Bad Request in 6ms (Views: 0.2ms | ActiveRecord: 4.3ms | Allocations: 1160)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010707e560>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:44:42.499800"], ["updated_at", "2024-03-06 07:44:42.499800"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:44:42 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Minecraft Steve", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Minecraft Steve"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x00000001080fde90>, params: {"name"=>"Minecraft Steve", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Minecraft Steve"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 400 Bad Request in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 964)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", nil], ["name", nil], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:45:16.880733"], ["updated_at", "2024-03-06 07:45:16.880733"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.1ms)[0m  [1m[33mUPDATE "users" SET "email" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["email", "dummy value"], ["updated_at", "2024-03-06 07:45:16.881546"], ["id", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dummy value"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "DUMMY VALUE"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-06 00:45:16 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7057)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:45:16 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010c10c630>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:45:16.912601"], ["updated_at", "2024-03-06 07:45:16.912601"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1358)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:45:16 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x000000010c107950>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mFavorite Create (0.1ms)[0m  [1m[32mINSERT INTO "favorites" ("country", "recipe_link", "recipe_title", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["country", "thailand"], ["recipe_link", "https://www.tastingtable.com/"], ["recipe_title", "Crab Fried Rice (Khaao Pad Bpu)"], ["user_id", 1], ["created_at", "2024-03-06 07:45:16.919076"], ["updated_at", "2024-03-06 07:45:16.919076"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.2ms | Allocations: 4374)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = ? ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:45:16 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010c26fd38>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:45:16.924352"], ["updated_at", "2024-03-06 07:45:16.924352"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 895)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:45:16 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 67)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:45:16 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 189)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:45:16 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 187)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:45:16 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010c265c98>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:45:16.928998"], ["updated_at", "2024-03-06 07:45:16.928998"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:45:16 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x000000010c262458>, params: {"api_key"=>"[FILTERED]", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 951)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", nil], ["name", nil], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:22.783215"], ["updated_at", "2024-03-06 07:46:22.783215"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.1ms)[0m  [1m[33mUPDATE "users" SET "email" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["email", "dummy value"], ["updated_at", "2024-03-06 07:46:22.783962"], ["id", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dummy value"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "DUMMY VALUE"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-06 00:46:22 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7197)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:22 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010c2cd528>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:22.818605"], ["updated_at", "2024-03-06 07:46:22.818605"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1358)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:22 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x000000010c2c5968>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mFavorite Create (0.1ms)[0m  [1m[32mINSERT INTO "favorites" ("country", "recipe_link", "recipe_title", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["country", "thailand"], ["recipe_link", "https://www.tastingtable.com/"], ["recipe_title", "Crab Fried Rice (Khaao Pad Bpu)"], ["user_id", 1], ["created_at", "2024-03-06 07:46:22.824110"], ["updated_at", "2024-03-06 07:46:22.824110"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 4370)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = ? ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:22 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010c0c2760>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:22.828895"], ["updated_at", "2024-03-06 07:46:22.828895"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 895)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:22 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 67)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:22 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 189)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:22 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 187)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:22 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x000000010c041fe8>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:22.833161"], ["updated_at", "2024-03-06 07:46:22.833161"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:22 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x000000010bf4d678>, params: {"api_key"=>"[FILTERED]", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 951)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:22 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x000000010bf44438>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 912)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", nil], ["name", nil], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:51.021941"], ["updated_at", "2024-03-06 07:46:51.021941"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.1ms)[0m  [1m[33mUPDATE "users" SET "email" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["email", "dummy value"], ["updated_at", "2024-03-06 07:46:51.022801"], ["id", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dummy value"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "DUMMY VALUE"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7057)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000111a1c310>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:51.051921"], ["updated_at", "2024-03-06 07:46:51.051921"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1358)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x0000000111a17630>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mFavorite Create (0.1ms)[0m  [1m[32mINSERT INTO "favorites" ("country", "recipe_link", "recipe_title", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["country", "thailand"], ["recipe_link", "https://www.tastingtable.com/"], ["recipe_title", "Crab Fried Rice (Khaao Pad Bpu)"], ["user_id", 1], ["created_at", "2024-03-06 07:46:51.057208"], ["updated_at", "2024-03-06 07:46:51.057208"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 4374)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = ? ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mFavorite Load (0.0ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" ORDER BY "favorites"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000111b7fa18>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:51.061851"], ["updated_at", "2024-03-06 07:46:51.061851"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 895)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 67)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 189)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 187)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000111b75978>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:51.065961"], ["updated_at", "2024-03-06 07:46:51.065961"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x0000000111b72138>, params: {"api_key"=>"[FILTERED]", "recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"recipe_link"=>"https://www.tastingtable.com/", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 951)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "favorite"=>{"country"=>"thailand", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x0000000111c39bc0>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_title"=>"Crab Fried Rice (Khaao Pad Bpu)"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 912)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/favorites" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::FavoritesController#create as HTML
+  Parameters: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."api_key" = ? LIMIT ?[0m  [["api_key", "[FILTERED]"], ["LIMIT", 1]]
+[31mUnpermitted parameters: :api_key, :favorite. Context: { controller: Api::V1::FavoritesController, action: create, request: #<ActionDispatch::Request:0x0000000111c316a0>, params: {"api_key"=>"[FILTERED]", "country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/", "controller"=>"api/v1/favorites", "action"=>"create", "favorite"=>{"country"=>"thailand", "recipe_link"=>"https://www.tastingtable.com/"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 912)
+  [1m[36mFavorite Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "favorites"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5871)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=039275280noegrberg0t286ynoege4h02" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"039275280noegrberg0t286ynoege4h02", "learning_resource"=>{}}
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 3516)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11192)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 13031)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000112190470>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:51.127677"], ["updated_at", "2024-03-06 07:46:51.127677"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.2ms | Allocations: 898)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+[31mUnpermitted parameter: :session. Context: { controller: Api::V1::SessionsController, action: create, request: #<ActionDispatch::Request:0x0000000111f9d8e8>, params: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "controller"=>"api/v1/sessions", "action"=>"create", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 533)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000111f99108>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:51.132511"], ["updated_at", "2024-03-06 07:46:51.132511"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 894)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"badboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"badboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "badboy@ruffruff.com"], ["LIMIT", 1]]
+Completed 400 Bad Request in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 186)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000111f93528>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:51.135320"], ["updated_at", "2024-03-06 07:46:51.135320"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+Started POST "/api/v1/sessions" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::SessionsController#create as HTML
+  Parameters: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+[31mUnpermitted parameter: :session. Context: { controller: Api::V1::SessionsController, action: create, request: #<ActionDispatch::Request:0x0000000111ddff10>, params: {"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "controller"=>"api/v1/sessions", "action"=>"create", "session"=>{"email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]"}} }[0m
+Completed 400 Bad Request in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 303)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000111ddc9f0>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:51.139328"], ["updated_at", "2024-03-06 07:46:51.139328"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000111dd50b0>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1126)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000111d5b2d8>, params: {"name"=>"Odell", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Odell"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "api_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["email", "goodboy@ruffruff.com"], ["name", "Odell"], ["password_digest", "[FILTERED]"], ["api_key", "[FILTERED]"], ["created_at", "2024-03-06 07:46:51.144928"], ["updated_at", "2024-03-06 07:46:51.144928"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 894)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/api/v1/users" for 127.0.0.1 at 2024-03-06 00:46:51 -0700
+Processing by Api::V1::UsersController#create as HTML
+  Parameters: {"name"=>"Minecraft Steve", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Minecraft Steve"}}
+[31mUnpermitted parameter: :user. Context: { controller: Api::V1::UsersController, action: create, request: #<ActionDispatch::Request:0x0000000111d57ef8>, params: {"name"=>"Minecraft Steve", "email"=>"goodboy@ruffruff.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "controller"=>"api/v1/users", "action"=>"create", "user"=>{"email"=>"goodboy@ruffruff.com", "name"=>"Minecraft Steve"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "goodboy@ruffruff.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 964)
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
