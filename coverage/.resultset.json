@@ -18,6 +18,25 @@
           null
         ]
       },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/poros/recipe_poro.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          41,
+          41,
+          41,
+          41,
+          41,
+          null,
+          null
+        ]
+      },
       "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/poros/weather_poro.rb": {
         "lines": [
           1,
@@ -81,6 +100,45 @@
           2,
           null,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/facades/recipes_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          2,
+          2,
+          40,
+          null,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/services/recipes_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null,
+          1,
+          2,
           null,
           null
         ]
@@ -150,6 +208,28 @@
           null
         ]
       },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/controllers/api/v1/recipes_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/serializers/recipe_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/models/application_record.rb": {
         "lines": [
           0,
@@ -160,6 +240,6 @@
         }
       }
     },
-    "timestamp": 1709580399
+    "timestamp": 1709687323
   }
 }
