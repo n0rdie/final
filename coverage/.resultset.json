@@ -61,17 +61,8 @@
           3,
           null,
           3,
-          0,
           3,
           3,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
           null,
           null,
           null
@@ -229,6 +220,133 @@
           null
         ]
       },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/controllers/api/v1/learning_resources_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/facades/learning_resources_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          10,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/services/youtube_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/poros/youtube_poro.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/services/unsplash_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/poros/unsplash_poro.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          10,
+          10,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/serializers/learning_resources_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/controllers/api/v1/recipes_controller.rb": {
         "lines": [
           1,
@@ -268,6 +386,6 @@
         }
       }
     },
-    "timestamp": 1709690000
+    "timestamp": 1709703905
   }
 }

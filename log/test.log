@@ -2200,3 +2200,2047 @@ Processing by Api::V1::RecipesController#index as HTML
   Parameters: {"country"=>"", "recipe"=>{}}
 Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 18:57:27 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 7189)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 18:57:27 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11260)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 18:57:27 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12914)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 18:57:27 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:34:40 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:34:40 -0700
+  
+ActionController::RoutingError (uninitialized constant Api::V1::LearningResourcesController):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:34:40 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:34:40 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:34:40 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:35:21 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:35:21 -0700
+  
+ActionController::RoutingError (uninitialized constant Api::V1::LearningResourcesController):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:35:21 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:35:21 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 13052)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:35:21 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:35:39 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:35:39 -0700
+  
+ActionController::RoutingError (uninitialized constant Api::V1::LearningResourcesController):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:35:39 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:35:39 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:35:39 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:36:03 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:36:03 -0700
+  
+ActionController::RoutingError (uninitialized constant Api::V1::LearningResourcesController):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:36:03 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:36:03 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:36:03 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 12ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:36:37 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:36:37 -0700
+  
+ActionController::RoutingError (uninitialized constant Api::V1::LearningResourcesController):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:36:37 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:36:37 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:36:37 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:36:49 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:36:49 -0700
+  
+ActionController::RoutingError (uninitialized constant Api::V1::LearningResourcesController):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:36:49 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:36:49 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:36:49 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:37:05 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 14ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:37:05 -0700
+  
+ActionController::RoutingError (uninitialized constant Api::V1::LearningResourcesController):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:37:05 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:37:05 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:37:05 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:37:17 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7197)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:37:17 -0700
+  
+ActionController::RoutingError (uninitialized constant Api::V1::LearningResourcesController):
+  
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:38:21 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:38:21 -0700
+  
+ActionController::RoutingError (uninitialized constant Api::V1::LearningResourcesController):
+  
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:39:16 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:39:16 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 293)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:39:16 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:39:16 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:39:16 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:39:27 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:39:27 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 287)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:39:27 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:39:27 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 14ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:39:27 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 5ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:39:44 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:39:44 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2000)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:39:44 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:39:44 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:39:44 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 6ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:43:11 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7061)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:43:11 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2464)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:43:11 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:43:11 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:43:11 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:43:31 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:43:31 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 4172)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:43:31 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:43:31 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:43:31 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:45:20 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:45:20 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5322)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:45:20 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:45:20 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:45:20 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:48:52 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:48:52 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2647)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:48:52 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 10461)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:48:52 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 12411)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:48:52 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2215)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:49:14 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:49:14 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 104310ms (ActiveRecord: 0.0ms | Allocations: 90377)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:52:24 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:52:24 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 162668ms (ActiveRecord: 0.0ms | Allocations: 378192)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 21:58:19 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 21:58:19 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5488)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 21:58:19 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 21:58:19 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 21:58:19 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:00:26 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:00:26 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 5501)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:00:26 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:00:26 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:00:26 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:00:46 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 17ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:00:46 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 14443ms (ActiveRecord: 0.0ms | Allocations: 30588)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:02:13 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:02:13 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5565)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:02:13 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:02:13 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:02:13 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:02:25 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:02:25 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 5779)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:02:25 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:02:25 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:02:25 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:03:28 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 19ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:03:28 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 5784)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:03:28 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:03:28 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:03:28 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:03:40 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:03:40 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 5782)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:03:40 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:03:40 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:03:40 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:04:14 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:04:14 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 20061ms (ActiveRecord: 0.0ms | Allocations: 26494)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:04:42 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:04:42 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5784)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:04:42 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:04:42 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:04:42 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:09:43 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:09:43 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5782)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:09:43 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:09:43 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:09:43 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:10:04 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:10:04 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 78020ms (ActiveRecord: 0.0ms | Allocations: 32771)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:14:54 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:14:54 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 3027ms (ActiveRecord: 0.0ms | Allocations: 24707)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:16:26 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:16:26 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 395)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:16:26 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:16:26 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:16:26 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:17:25 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:17:25 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 1058021ms (ActiveRecord: 0.0ms | Allocations: 26963)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:35:06 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:35:06 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5871)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:35:06 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:35:06 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:35:06 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:36:15 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:36:15 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 5775)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:36:15 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:36:15 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:36:15 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:36:35 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:36:35 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 5874)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:36:35 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:36:35 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:36:35 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:37:27 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:37:27 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5899)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:37:27 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:37:27 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:37:27 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:37:43 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:37:43 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5920)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:37:43 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:37:43 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:37:43 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:37:57 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:37:57 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5862)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:39:04 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7189)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:39:04 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11195)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:39:04 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12909)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:39:04 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:39:15 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:39:15 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5862)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:40:11 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:40:11 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5862)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:40:11 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11192)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:40:11 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:40:11 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:40:31 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:40:31 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5823)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:40:31 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:40:31 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:40:31 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:40:42 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:40:42 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5558)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:40:42 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 11194)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:40:42 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:40:42 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:40:59 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:40:59 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5862)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:40:59 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11192)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:40:59 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:40:59 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:41:20 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 24ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:41:20 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5862)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:42:06 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:42:06 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5862)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:42:06 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11192)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:42:06 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:42:06 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:42:24 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:42:24 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5862)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/air_quality?country=India" for 127.0.0.1 at 2024-03-05 22:45:05 -0700
+Processing by Api::V1::AirQualityController#index as HTML
+  Parameters: {"country"=>"India", "air_quality"=>{}}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7063)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/learning_resources?country=laos" for 127.0.0.1 at 2024-03-05 22:45:05 -0700
+Processing by Api::V1::LearningResourcesController#index as HTML
+  Parameters: {"country"=>"laos", "learning_resource"=>{}}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5862)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=thailand" for 127.0.0.1 at 2024-03-05 22:45:05 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"thailand", "recipe"=>{}}
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11192)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes" for 127.0.0.1 at 2024-03-05 22:45:05 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"recipe"=>{}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 12906)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/recipes?country=" for 127.0.0.1 at 2024-03-05 22:45:05 -0700
+Processing by Api::V1::RecipesController#index as HTML
+  Parameters: {"country"=>"", "recipe"=>{}}
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 1976)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m

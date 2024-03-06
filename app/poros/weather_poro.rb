@@ -11,17 +11,8 @@ class WeatherPoro
         @datetime = data[:list].first[:dt]
 
         if @aqi == 1
-            @readable_aqi = 'Very Poor'
         elsif @aqi == 2
             @readable_aqi = 'Poor'
-        elsif @aqi == 3
-            @readable_aqi = 'Moderate'
-        elsif @aqi == 4
-            @readable_aqi = 'Fair'
-        elsif @aqi == 5
-            @readable_aqi = 'Good'
-        else
-            @readable_aqi = 'readable_aqi failed'
         end
     end
 end
