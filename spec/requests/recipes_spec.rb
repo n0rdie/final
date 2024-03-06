@@ -58,4 +58,23 @@ RSpec.describe "Api::V1::recipes", type: :request do
       expect(json_response['data'].first['attributes']['country']).to eq("Cyprus")
       expect(json_response['data'].first['attributes']['image']).to eq("https://edamam-product-images.s3.amazonaws.com/web-img/b60/b60ea0e0f5904342488d092f94e528a3.png?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDtlS%2FB0mP2dLwXBCWgvXqVZmEOrHRxKn%2FAeihWlNcg%2BwIgDALZL2m2oG%2BrjhJxlGW8CfaSCi8gBkDl%2F%2BzZAknAOAQqwgUImv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxODcwMTcxNTA5ODYiDOvHFPiCLfisquB7UiqWBbtm1dEer9cwfqDgLYoUh5jzUWG5pcBgRU8Yfj0ChA7FaYlrTMAh9%2FfI8gqNQvUSoctvsH9WmLANJvKPDf%2BWzDGR5x%2F7r6KkjBUrQE6907%2FZYD74K2eiBZu8Ew2zyXLU9qGyc%2FeB9ZeRhQPReQEsCx4bgkJxmRHiWN7Ri7b6Vx7gpWlUFRgttPJs2UQV9rZfuRX4PkWJpT2oYhqwIee4WaevFbUiQgETCsA6LdQD2jR6cCwaZn9UGHJS7lXlRsOzy4m2p6E5amkaHBYCf7Z7lFJCmGP13o21DAzaPpGLwhxlb2%2BbmCb5RiUDHkdgSo3KcdYHJQtUt1lAkEEAFB6ZFU1rwjoHl840FHggTLUv0zLZDgJaj639gQfyqwhTn8Lg8fPFcE1Wl85FPhU1r76sP5RJxjkTLGuUeTRhAuMDlJEmCT6FFEXiRc%2Flb3tEfG0ttuSnJ27CHDbwYoDAxbN7cKJB9jUC%2BFwa5ZsPlxRXlthLBWp0rPBSwcLmPh3oJAwYIuXcIxa%2BfAuHYqB4WjP989Z54NSJGJg23EQ2D%2BhKEn%2Fh8eMLxzWNgFLhWR%2FQwmiJdY3%2B613%2Buxg2i2oDFfQ5Z7AM%2Bhlx7fThzRP9LRXeuk4vdJqr4Z65G4SAGMqX4aE0dG%2B14Z%2FBw1wWJ9%2BINJvZg%2FdeZ35SSJVjQ9KY%2B14rk6qjt0BVsvtqlfQM9s6k0PxmwEOEv3Pvu5OsQY%2FY829WCb2HoMqetYvLlFlJsS8Lokw9bs31EFUw%2BQZ2CgvURdFoYFJZiAyGiOtGuDUZxIyqHwHyrYAIP%2F%2BLx7QzZbjFaUb0%2FqjBhh1oZ8%2BlAhEUEDBod90eB%2BZPX96CTbG1feU3Gcer3Dnw2RpUYW3oZks4PIRGCP4hR92bMMz0nq8GOrEBD2i5jzxLaXfF8PP%2BWyS4QljfRY9gX5cq2CrmnJTIrh%2B%2FBxW5XM0nWBbEDgrsXtiXKb%2F%2B6F%2FQ7RqnBBvovfcSeI3KcoAAYyQAKYRB1yIz8%2BtnyvJh%2BkIigK2itKM3slurcNP%2Futu8MmdRS%2FtLoZ2oYdX3kORtiU9CtiaEhzk30YJYlvCkD0Z6%2Ba0cJOmtgvQ4v9cDZE13tY8iYjOQ%2Bi0AeDeIUWpXgJvoGhWsrB908u6W&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240306T014326Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3599&X-Amz-Credential=ASIASXCYXIIFBXPADLNY%2F20240306%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=72aecfcca9f9da263b7526a796f24c9c8f88e1b5f100767b42a92e26aa22a469")
   end
+
+  it "can pull recipes from countries [SAD: BLANK INPUT]" do
+    recipe_blank_input_json = File.read("spec/fixtures/recipe_blank_input.json")
+    stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{Rails.application.credentials.edamam[:id]}&app_key=#{Rails.application.credentials.edamam[:key]}&q=%7D&type=public").
+         with(
+           headers: {
+       	  'Accept'=>'*/*',
+       	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+       	  'User-Agent'=>'Faraday v2.9.0'
+           }).
+         to_return(status: 200, body: recipe_blank_input_json, headers: {})
+
+    get "/api/v1/recipes?country=", headers: {"CONTENT_TYPE" => "application/json"}
+    expect(response).to have_http_status(:success)
+    json_response = JSON.parse(response.body)
+    
+    expect(json_response['data']).to eq([])
+    expect(json_response['data'].count).to eq(0)
+end
 end
