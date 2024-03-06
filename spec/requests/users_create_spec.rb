@@ -68,4 +68,44 @@ RSpec.describe "Api::V1::users", type: :request do
         expect(response).to have_http_status(:bad_request)
         expect(User.all.count).to eq(original_user_count)
     end
+
+    it "can create new user [SAD] - missing attributes" do
+        original_user_count = User.all.count
+
+        input_body = {
+            "email": "goodboy@ruffruff.com",
+            "password": "goodpassword",
+            "password_confirmation": "goodpassword"
+        }
+        post "/api/v1/users", headers: {"CONTENT_TYPE" => "application/json"}, params: JSON.generate(input_body)
+        expect(response).to have_http_status(:bad_request)
+        expect(User.all.count).to eq(original_user_count)
+
+        input_body = {
+            "name": "Minecraft Steve",
+            "password": "goodpassword",
+            "password_confirmation": "goodpassword"
+        }
+        post "/api/v1/users", headers: {"CONTENT_TYPE" => "application/json"}, params: JSON.generate(input_body)
+        expect(response).to have_http_status(:bad_request)
+        expect(User.all.count).to eq(original_user_count)
+
+        input_body = {
+            "name": "Minecraft Steve",
+            "email": "goodboy@ruffruff.com",
+            "password_confirmation": "goodpassword"
+        }
+        post "/api/v1/users", headers: {"CONTENT_TYPE" => "application/json"}, params: JSON.generate(input_body)
+        expect(response).to have_http_status(:bad_request)
+        expect(User.all.count).to eq(original_user_count)
+
+        input_body = {
+            "name": "Minecraft Steve",
+            "email": "goodboy@ruffruff.com",
+            "password": "goodpassword",
+        }
+        post "/api/v1/users", headers: {"CONTENT_TYPE" => "application/json"}, params: JSON.generate(input_body)
+        expect(response).to have_http_status(:bad_request)
+        expect(User.all.count).to eq(original_user_count)
+    end
 end
