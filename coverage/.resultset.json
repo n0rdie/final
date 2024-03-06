@@ -1,6 +1,31 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/poros/country_poro.rb": {
         "lines": [
           1,
@@ -381,16 +406,20 @@
           null
         ]
       },
-      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/models/application_record.rb": {
+      "/Users/quinnordmark/Desktop/Turing/3mod/6week/final/app/controllers/api/v1/users_controller.rb": {
         "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1709705095
+    "timestamp": 1709706716
   }
 }
