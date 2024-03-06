@@ -22,4 +22,21 @@ RSpec.describe 'CountryFacade' do
     expect(country.lat).to eq(20.0)
     expect(country.lng).to eq(77.0)
   end
+
+  it '#get random country' do
+    random_country = File.read("spec/fixtures/random_country.json")
+    stub_request(:get, "https://restcountries.com/v3.1/all?fields=name").
+     with(
+       headers: {
+       'Accept'=>'*/*',
+       'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+       'User-Agent'=>'Faraday v2.9.0'
+       }).
+     to_return(status: 200, body: random_country, headers: {}) 
+
+    country = CountryFacade.random_country
+
+    expect(country).to be_a(CountryPoro)
+    expect(country.country).to eq('Cyprus')
+  end
 end

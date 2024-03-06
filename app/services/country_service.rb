@@ -14,6 +14,11 @@ class CountryService
   def country(q)
     get_url("/v3.1/name/#{q}?fullText=true")
   end
+
+  def random_country
+    response = get_url("/v3.1/all?fields=name")
+    response[Random.new.rand(0..response.count-1)]
+  end
 end
 
 # https://restcountries.com/v3.1/name/India?fullText=true

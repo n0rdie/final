@@ -6,4 +6,11 @@ class CountryFacade
 
     @country = CountryPoro.new(json.first) 
   end
+
+  def self.random_country
+    service = CountryService.new
+    json = service.random_country
+
+    @country = CountryPoro.new(json) 
+  end
 end

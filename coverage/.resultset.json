@@ -10,10 +10,19 @@
           null,
           null,
           1,
+          6,
+          null,
+          6,
+          6,
+          3,
+          null,
+          null,
+          6,
+          6,
+          6,
           3,
           3,
-          3,
-          3,
+          null,
           null,
           null
         ]
@@ -28,11 +37,11 @@
           null,
           null,
           1,
-          41,
-          41,
-          41,
-          41,
-          41,
+          61,
+          61,
+          61,
+          61,
+          61,
           null,
           null
         ]
@@ -78,6 +87,13 @@
           null,
           2,
           null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          2,
+          null,
           null
         ]
       },
@@ -85,18 +101,23 @@
         "lines": [
           1,
           1,
-          2,
+          4,
           null,
           null,
           null,
           null,
           1,
-          2,
+          4,
           null,
+          4,
+          null,
+          null,
+          1,
           2,
           null,
           null,
           1,
+          2,
           2,
           null,
           null,
@@ -109,15 +130,15 @@
           1,
           null,
           1,
-          2,
-          2,
+          3,
+          3,
           null,
-          2,
-          2,
-          40,
+          3,
+          3,
+          60,
           null,
           null,
-          2,
+          3,
           null,
           null
         ]
@@ -126,19 +147,19 @@
         "lines": [
           1,
           1,
-          2,
+          3,
           null,
           null,
           null,
           null,
           1,
-          2,
+          3,
           null,
-          2,
+          3,
           null,
           null,
           1,
-          2,
+          3,
           null,
           null
         ]
@@ -212,8 +233,15 @@
         "lines": [
           1,
           1,
+          2,
+          2,
           1,
+          null,
           1,
+          null,
+          null,
+          2,
+          2,
           null,
           null
         ]
@@ -240,6 +268,6 @@
         }
       }
     },
-    "timestamp": 1709687323
+    "timestamp": 1709689673
   }
 }

@@ -22,4 +22,19 @@ RSpec.describe CountryPoro do
     expect(country.lat).to eq(20.0)
     expect(country.lng).to eq(77.0)
   end
+
+  it 'creates an country poro with only name' do
+    attr = {
+      "name": {
+        "common": "Cyprus",
+      }
+    }
+
+    country = CountryPoro.new(attr)
+    expect(country).to be_a(CountryPoro)
+    expect(country.country).to eq("Cyprus")
+    expect(country.capital).to eq(nil)
+    expect(country.lat).to eq(nil)
+    expect(country.lng).to eq(nil)
+  end
 end
